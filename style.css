@@ -1,0 +1,51 @@
+* {
+margin: 0;
+padding: 0;
+font-style: normal;
+}
+
+body{
+    width: 1440px;
+    background-color: #f5f5f5;
+    margin: 0 auto;
+}
+
+.logo{
+    background-image: url(./assets/logo.png);
+    width: 92px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 23px 0 0 120px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    margin-bottom: 134px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0 0 64px;
+}
+
+header nav p {
+    color: #000;
+    font: 400 14px "Oswald";
+    cursor: pointer;
+}
+
+header nav p:not(:last-child){
+    margin-right: 25px;
+}
+
+header nav p:hover {
+    color: #0013e9;
+}
+
+header .btn{
+    
+}
