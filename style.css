@@ -1,16 +1,16 @@
 * {
-margin: 0;
-padding: 0;
-font-style: normal;
+    margin: 0;
+    padding: 0;
+    font-style: normal;
 }
 
-body{
+body {
     width: 1440px;
     background-color: #f5f5f5;
     margin: 0 auto;
 }
 
-.logo{
+.logo {
     background-image: url(./assets/logo.png);
     width: 92px;
     height: 32px;
@@ -19,7 +19,7 @@ body{
     margin: 23px 0 0 120px;
 }
 
-header{
+header {
     display: flex;
     align-items: center;
     width: 1200px;
@@ -38,7 +38,7 @@ header nav p {
     cursor: pointer;
 }
 
-header nav p:not(:last-child){
+header nav p:not(:last-child) {
     margin-right: 25px;
 }
 
@@ -46,6 +46,60 @@ header nav p:hover {
     color: #0013e9;
 }
 
-header .btn{
-    
+header .btn {
+    width: 193px;
+    height: 23px;
+    border-radius: 30px;
+    background: #0057ff;
+    color: #fff;
+    font: 400 14px "Oswald";
+    cursor: pointer;
+    margin: 13px 0 0 450px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+header .btn:hover {
+    background: #002c83;
+}
+
+main {
+    display: flex;
+    width: 1200px;
+    margin-left: 120px;
+    margin-bottom: 200px;
+}
+
+main .main {
+    background-image: url(./assets/imgPiple.png);
+    width: 540px;
+    height: 590px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 50px;
+}
+
+.info {
+    margin-left: 120px;
+}
+
+.info .h1 {
+    width: 450px;
+    height: 100px;
+    margin: 15px 0 0 0;
+    font: 400 40px "Oswald";
+    color: #000;
+}
+
+.info p {
+    margin-top: 48px;
+    width: 490px;
+    height: 52px;
+    font: 400 15px 'Roboto';
+}
+
+.support {
+    width: 500px;
+    margin-top: 57px;
+    border-radius: 20px;
 }
