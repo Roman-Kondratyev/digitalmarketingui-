@@ -70,7 +70,7 @@ main {
     margin-bottom: 200px;
 }
 
- main .main {
+main .main {
     background-image: url(./assets/imgPiple.png);
     width: 540px;
     height: 590px;
@@ -79,7 +79,7 @@ main {
     margin-top: 50px;
 }
 
- .info {
+.info {
     margin-left: 120px;
 }
 
@@ -91,20 +91,20 @@ main {
     color: #000;
 }
 
- .info p {
+.info p {
     margin-top: 48px;
     width: 490px;
     height: 52px;
     font: 400 15px 'Roboto';
 }
 
- .support {
+.support {
     width: 500px;
     margin-top: 57px;
     border-radius: 20px;
 }
 
- .support .btn1 div,
+.support .btn1 div,
 .btn2 div,
 .btn3 div,
 .btn4 div {
@@ -158,7 +158,7 @@ main {
     height: 25px;
     background-repeat: no-repeat;
     background-size: contain;
-    margin: 0 240px ;
+    margin: 0 240px;
     cursor: pointer;
 }
 
